@@ -1,0 +1,151 @@
+body {
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+  padding:0;
+
+}
+* {
+  font-family: "Hanken Grotesk";
+  margin:0;
+  padding:0;
+  color:white;
+}
+h1 {
+  font-size: 60px;
+  margin-bottom:0;
+  margin-top:2rem;
+  padding:0;
+}
+h2 {
+  font-size: 30px;
+  margin-bottom:0;
+  margin-top:2rem;
+
+}
+h3 {
+  margin:0;
+  padding:0;
+}
+
+.font-transparent {
+  color:hsla(0, 100%, 100%, 0.5);
+}
+.font--lightgrey {
+  color:hsla(0, 0%, 38%);
+ }
+
+ .font--red {
+  color:hsl(0, 100%, 67%)
+ }
+
+ .font--yellow {
+  color:hsl(40, 80%, 50%)
+ }
+
+ .font--green {
+  color:hsl(170, 50%, 50%)
+ }
+
+ .font--blue {
+  color:hsl(220, 80%, 50%)
+ }
+
+ .font--darkgrey{
+  color:rgb(30, 30, 30);
+ }
+.font--right {
+  justify-self: flex-end;
+color:rgb(28, 28, 28)
+}
+
+.card {
+  width:50rem;
+  box-shadow: 1rem 1rem 2rem  hsl(241, 100%, 89%);
+  display: flex;
+  border-radius: 1rem;
+  padding:0;
+}
+
+.score-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  width:50% ;
+  border-radius: 1rem;
+ color:white;
+ text-align: center;
+padding:1rem;
+}
+
+.score-presenter {
+  width:10rem;
+  height:10rem;
+  border-radius: 10rem;
+  background-image:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+ text-align: center;
+ margin:2rem 0;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  width:50% ;
+  padding:2rem;
+  margin:0;
+  
+}
+
+.measure {
+  display:flex;
+  height:auto;
+
+  margin:1rem 0;
+  border-radius: 1rem;
+  align-items: center;
+  gap:0.2rem;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.measure--red {
+  background-color: hsla(0, 100%, 67%, 10%) ;
+}
+
+.measure--yellow {
+  background-color: hsla(60, 100%, 67%, 10%) ;
+}
+
+.measure--green {
+  background-color: hsla(130, 100%, 67%, 10%) ;
+}
+
+.measure--blue {
+  background-color: hsla(210, 100%, 67%, 10%) ;
+}
+
+
+
+
+.left-pos {
+  display:flex;
+  gap:1rem;
+  align-items: center;
+  
+}
+.image-size {
+  width:1.3rem;
+ 
+}
+
+.button {
+  padding:1rem;
+  margin:1rem;
+  border-radius: 2rem;
+  border:none;
+  background-color:hsl(234, 85%, 45%);
+}
